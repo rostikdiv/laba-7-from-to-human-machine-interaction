@@ -1,0 +1,1 @@
+# laba-7-from-to-human-machine-interaction

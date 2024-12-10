@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laba7.AudioPlayerController">
+   <children>
+      <Label fx:id="label_audio" layoutX="187.0" layoutY="70.0" prefHeight="56.0" prefWidth="226.0" text="Audio player">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="AudioProgress" layoutX="71.0" layoutY="151.0" prefHeight="56.0" prefWidth="459.0" progress="0.0" />
+      <Button layoutX="25.0" layoutY="231.0" mnemonicParsing="false" onAction="#play" prefHeight="56.0" prefWidth="92.0" text="Play" />
+      <Button layoutX="168.0" layoutY="231.0" mnemonicParsing="false" onAction="#pause" prefHeight="56.0" prefWidth="92.0" text="Pause" />
+      <Button layoutX="321.0" layoutY="231.0" mnemonicParsing="false" onAction="#next" prefHeight="56.0" prefWidth="92.0" text="Next" />
+      <Button layoutX="484.0" layoutY="231.0" mnemonicParsing="false" onAction="#previous" prefHeight="56.0" prefWidth="92.0" text="Previos" />
+      <Slider fx:id="volume" layoutX="71.0" layoutY="331.0" min="1.0" prefHeight="18.0" prefWidth="450.0" value="1.0" />
+   </children>
+</AnchorPane>

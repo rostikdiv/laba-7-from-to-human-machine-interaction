@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laba7.DatePickerController">
+   <children>
+      <DatePicker fx:id="myDatePicker" layoutX="191.0" layoutY="185.0" onAction="#getDate" />
+      <Label fx:id="dataLabel1" layoutX="192.0" layoutY="95.0" prefHeight="60.0" prefWidth="246.0">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

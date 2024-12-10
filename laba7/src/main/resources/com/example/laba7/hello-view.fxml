@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laba7.HelloController">
+   <children>
+      <Button fx:id="datePicker" layoutX="79.0" layoutY="150.0" mnemonicParsing="false" onAction="#open_date_picler" text="try date picker" />
+      <Button fx:id="colorPicker" layoutX="251.0" layoutY="150.0" mnemonicParsing="false" onAction="#open_ColorPicker" text="tryc color picker" />
+      <Button fx:id="slider" layoutX="425.0" layoutY="150.0" mnemonicParsing="false" onAction="#open_slider" text="try slider" />
+      <Button fx:id="file_chooser" layoutX="90.0" layoutY="219.0" mnemonicParsing="false" onAction="#open_file_chooser" text="try fIle chooser" />
+      <Button fx:id="media_viever" layoutX="245.0" layoutY="219.0" mnemonicParsing="false" onAction="#open_media_viever" text="try media viever" />
+      <Button layoutX="419.0" layoutY="219.0" mnemonicParsing="false" onAction="#openAudioPlayer" text="try audio player" />
+   </children>
+</AnchorPane>
